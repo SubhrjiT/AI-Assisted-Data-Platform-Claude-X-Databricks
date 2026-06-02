@@ -436,7 +436,6 @@ By completing this project, you'll understand:
 - [Apache Spark Documentation](https://spark.apache.org/docs)
 
 ### Related Videos
-- Databricks Vibe Coding with Claude Code - [Ansh Lamba](https://youtu.be/DyAa7lLu5sU)
 - Medallion Architecture Deep Dive - [Databricks](https://databricks.com)
 
 ### Community
@@ -469,7 +468,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 **Author:** Subhrajit Behera  
 **Email:** subhrajitbehera6370@gmail.com  
 **LinkedIn:** [linkedin.com/in/subhrajit-behera](https://linkedin.com/in/subhrajit-behera)  
-**GitHub:** [github.com/subhrajit](https://github.com/subhrajit)  
+**GitHub:** [github.com/subhrajit](https://github.com/SubhrjiT)  
 
 ---
 
@@ -500,7 +499,6 @@ If this project helped you, please star it! ⭐
 ---
 
 **Last Updated:** June 2, 2026  
-**Version:** 1.0  
 **Status:** ✅ Production-Ready  
 
 Made with ❤️ by Subhrajit Behera
