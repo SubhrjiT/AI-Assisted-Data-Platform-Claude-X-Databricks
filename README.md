@@ -477,28 +477,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 If this project helped you, please star it! ⭐
 
 ---
-
-## 🎯 Resume Impact
-
-**This project demonstrates:**
-- AI-assisted data engineering expertise
-- Enterprise-grade pipeline design
-- Databricks & cloud platform proficiency
-- Modern data architecture knowledge
-- Productivity enhancement through AI
-
-**Use in your resume as:**
-
-> AI-Accelerated Databricks Medallion Pipeline | Claude Code, Databricks, PySpark
->
-> - Engineered complete Medallion Architecture pipeline using Claude Code for intelligent development
-> - Achieved 40% faster development time through AI-assisted code generation
-> - Implemented Delta Lake ACID compliance with 99.8% data quality validation
-> - Integrated Databricks Unity Catalog for enterprise governance
-
----
-
-**Last Updated:** June 2, 2026  
 **Status:** ✅ Production-Ready  
 
 Made with ❤️ by Subhrajit Behera
