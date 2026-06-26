@@ -13,7 +13,7 @@
 Build production-ready Databricks pipelines using **Claude Code**, **Apache Spark**, **Delta Lake**, and the **Medallion Architecture**.
 
 <p align="center">
-<img src="images/architecture.png" width="100%">
+<img src="Diagram.png" width="100%">
 </p>
 
 </div>
