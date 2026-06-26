@@ -39,49 +39,49 @@ Leverage AI-assisted development (Claude Code) to accelerate Databricks pipeline
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     DATA SOURCES                            │
-│          (CSV, JSON, APIs, Databases, etc.)                 │
-└────────────────────┬────────────────────────────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────────┐
-        │    BRONZE LAYER              │
-        │  Raw Data Ingestion          │
-        │  - Metadata addition         │
-        │  - Error handling            │
-        │  - Schema inference          │
-        └────────────┬─────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────────┐
-        │    SILVER LAYER              │
-        │  Data Transformation         │
-        │  - Cleaning & standardization│
-        │  - Deduplication             │
-        │  - Data quality checks       │
-        └────────────┬─────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────────┐
-        │    GOLD LAYER                │
-        │  Analytics-Ready Data        │
-        │  - Business logic            │
-        │  - Aggregations              │
-        │  - Materialized views        │
-        └────────────┬─────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────────┐
-        │  BI TOOLS & ANALYTICS        │
-        │  (Dashboards, Reports, etc.) │
-        └──────────────────────────────┘
+                         AI-ASSISTED DATA PLATFORM
+                      Claude Code × Databricks AI Dev Kit
 
-    ┌─────────────────────────────────────┐
-    │  GOVERNANCE LAYER                   │
-    │  Unity Catalog, Data Lineage,       │
-    │  Access Control, Metadata           │
-    └─────────────────────────────────────┘
+ ┌────────────────────────────────────────────────────────────┐
+ │                    Developer / Data Engineer               │
+ │         VS Code / Cursor / Claude Code / Terminal          │
+ └────────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+                 Claude Code AI Assistant
+                          │
+                          ▼
+                Databricks AI Dev Kit (MCP)
+      Skills • Tools • Workspace APIs • Best Practices
+                          │
+          ┌───────────────┼──────────────────┐
+          ▼               ▼                  ▼
+  Generate Code      Execute SQL       Create Resources
+  PySpark            Unity Catalog     Jobs
+  SQL                Delta Tables      Pipelines
+  DLT                Volumes           Notebooks
+                          │
+                          ▼
+             Databricks Workspace
+ ┌─────────────────────────────────────────────────────┐
+ │ Unity Catalog                                       │
+ │ Catalog → Schema → Tables                           │
+ │                                                     │
+ │ Notebooks                                           │
+ │ Workflows (Jobs)                                    │
+ │ Delta Live Tables                                   │
+ │ SQL Warehouse                                       │
+ │ MLflow                                              │
+ │ Vector Search                                       │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+                  Delta Lake Storage
+                          │
+         Bronze ─────► Silver ─────► Gold
+                          │
+                          ▼
+              Dashboards / BI / AI Applications
 ```
 
 ---
