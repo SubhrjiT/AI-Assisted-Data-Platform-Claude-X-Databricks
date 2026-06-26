@@ -1,10 +1,11 @@
 # 🚀 Claude Code + Databricks Medallion Architecture Pipeline
-{align="center"}
+<div align="center">
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-AI-blue?style=for-the-badge)
 ![PySpark](https://img.shields.io/badge/PySpark-Apache%20Spark-orange?style=for-the-badge)
 ![Delta
 Lake](https://img.shields.io/badge/Delta%20Lake-ACID-green?style=for-the-badge)
+</div>
 
 **AI-Assisted Enterprise Data Engineering with Databricks Lakehouse**
 :::
