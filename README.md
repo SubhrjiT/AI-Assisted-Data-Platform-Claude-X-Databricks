@@ -1,237 +1,321 @@
-# 🚀 Claude Code + Databricks Medallion Architecture Pipeline
+# 🚀 AI-Assisted Data Platform using Claude Code & Databricks
 
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-AI-blue?style=for-the-badge)
+<div align="center">
+
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge\&logo=databricks\&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-AI-blue?style=for-the-badge)
 ![PySpark](https://img.shields.io/badge/PySpark-Apache%20Spark-orange?style=for-the-badge)
-![Delta
-Lake](https://img.shields.io/badge/Delta%20Lake-ACID-green?style=for-the-badge)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-ACID-green?style=for-the-badge)
+![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-Governance-purple?style=for-the-badge)
 
+### 🚀 AI-Assisted Enterprise Data Engineering with Databricks Lakehouse
 
-**AI-Assisted Enterprise Data Engineering with Databricks Lakehouse**
-:::
+Build production-ready Databricks pipelines using **Claude Code**, **Apache Spark**, **Delta Lake**, and the **Medallion Architecture**.
 
-------------------------------------------------------------------------
+<p align="center">
+<img src="images/architecture.png" width="100%">
+</p>
 
-## 📖 Overview
+</div>
 
-This project demonstrates how **Claude Code** can accelerate development
-of enterprise-grade **Databricks** data pipelines using the **Medallion
-Architecture (Bronze → Silver → Gold)**.
+---
 
-### Highlights
+# 📖 Overview
 
--   🤖 Claude Code for AI-assisted development
--   🔥 Apache Spark & PySpark
--   🗄️ Delta Lake
--   🛡️ Unity Catalog
--   📊 Medallion Architecture
--   ⚡ Databricks Workflows
--   ✅ Data Quality Validation
+This project demonstrates how **Claude Code** accelerates enterprise Data Engineering by generating production-ready PySpark code for Databricks.
 
-------------------------------------------------------------------------
+The solution follows the **Medallion Architecture (Bronze → Silver → Gold)** to build scalable, reliable and analytics-ready data pipelines using Databricks Lakehouse best practices.
 
-## 🏗️ Architecture
+---
 
-> Replace this section with your generated architecture image.
+# 🎯 Project Objectives
 
-``` text
-Developer
-    │
-    ▼
-Claude Code
-    │
-    ▼
-Databricks Workspace
- ├── Notebooks
- ├── Workflows
- ├── Unity Catalog
- ├── Delta Lake
- └── SQL Warehouse
-    │
-    ▼
-Bronze → Silver → Gold
-    │
-    ▼
-Power BI / Analytics
+* Build scalable ETL pipelines
+* Demonstrate AI-assisted software development
+* Implement Medallion Architecture
+* Apply Delta Lake best practices
+* Use Unity Catalog for governance
+* Produce analytics-ready datasets
+
+---
+
+# 🏗️ Solution Architecture
+
+> Replace with your architecture image.
+
+```text
+                 Developer
+                     │
+                     ▼
+              Claude Code
+                     │
+                     ▼
+        Databricks AI Development
+                     │
+                     ▼
+          Databricks Workspace
+     ┌─────────────────────────────┐
+     │ Notebooks                   │
+     │ Workflows                   │
+     │ Unity Catalog               │
+     │ Delta Lake                  │
+     │ SQL Warehouse               │
+     └─────────────────────────────┘
+                     │
+                     ▼
+              Bronze Layer
+                     │
+                     ▼
+              Silver Layer
+                     │
+                     ▼
+               Gold Layer
+                     │
+                     ▼
+         Power BI / Analytics
 ```
 
-------------------------------------------------------------------------
+---
 
-## ✨ Features
+# ⚙️ Technology Stack
 
--   AI-assisted PySpark development
--   Medallion Architecture
--   Delta Lake ACID transactions
--   Unity Catalog governance
--   Automated data quality
--   Production-ready pipelines
--   Logging & monitoring
+| Category        | Technology            |
+| --------------- | --------------------- |
+| AI Development  | Claude Code           |
+| Platform        | Databricks            |
+| Processing      | Apache Spark, PySpark |
+| Storage         | Delta Lake            |
+| Governance      | Unity Catalog         |
+| Programming     | Python                |
+| Query Language  | SQL                   |
+| Version Control | Git & GitHub          |
 
-------------------------------------------------------------------------
+---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-  Category     Technology
-  ------------ -----------------------
-  AI           Claude Code
-  Platform     Databricks
-  Processing   Apache Spark, PySpark
-  Storage      Delta Lake
-  Governance   Unity Catalog
-  Language     Python, SQL
+* 🤖 AI-assisted PySpark development
+* 🏗️ Medallion Architecture
+* 🔥 Apache Spark processing
+* 🗄️ Delta Lake storage
+* 🔒 Unity Catalog governance
+* 📊 Data Quality Validation
+* ⚡ Databricks Workflows
+* 📈 Analytics-ready Gold Layer
+* 🚀 Production-ready architecture
 
-------------------------------------------------------------------------
+---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-``` text
-project/
-├── notebooks/
-├── src/
-├── config/
-├── tests/
-├── docs/
+```text
+AI-Assisted-Data-Platform-Claude-X-Databricks/
+│
+├── README.md
 ├── requirements.txt
-└── README.md
+├── notebooks/
+│   ├── bronze_layer.ipynb
+│   ├── silver_layer.ipynb
+│   └── gold_layer.ipynb
+│
+├── src/
+│   ├── bronze_layer.py
+│   ├── silver_layer.py
+│   ├── gold_layer.py
+│   └── utilities/
+│
+├── config/
+│
+├── tests/
+│
+├── docs/
+│
+└── images/
+    ├── architecture.png
+    ├── workflow.png
+    └── dashboard.png
 ```
 
-------------------------------------------------------------------------
+---
 
-## 🔄 Medallion Architecture
+# 🔄 Medallion Architecture
 
-### Bronze
+## 🥉 Bronze Layer
 
--   Raw ingestion
--   Metadata
--   Audit columns
+* Raw Data Ingestion
+* Metadata Columns
+* Schema Validation
+* Error Handling
 
-### Silver
+---
 
--   Cleansing
--   Standardization
--   Deduplication
--   Data Quality
+## 🥈 Silver Layer
 
-### Gold
+* Data Cleaning
+* Deduplication
+* Standardization
+* Data Quality Checks
 
--   Business KPIs
--   Aggregations
--   Analytics-ready tables
+---
 
-------------------------------------------------------------------------
+## 🥇 Gold Layer
 
-## 🚀 Quick Start
+* Business KPIs
+* Aggregated Tables
+* Reporting Models
+* Analytics-ready Data
 
-``` bash
-git clone https://github.com/SubhrjiT/AI-Assisted-Data-Platform-Claude-X-Databricks
+---
+
+# 🤖 AI Development Workflow
+
+```text
+Business Requirement
+          │
+          ▼
+     Claude Code
+          │
+          ▼
+Generate PySpark Code
+          │
+          ▼
+Deploy to Databricks
+          │
+          ▼
+Execute Workflows
+          │
+          ▼
+Bronze → Silver → Gold
+          │
+          ▼
+Analytics Dashboard
+```
+
+---
+
+# 🚀 Quick Start
+
+## Clone Repository
+
+```bash
+git clone https://github.com/SubhrjiT/AI-Assisted-Data-Platform-Claude-X-Databricks.git
+
 cd AI-Assisted-Data-Platform-Claude-X-Databricks
+```
+
+---
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Configure Databricks CLI:
+---
 
-``` bash
+## Configure Databricks CLI
+
+```bash
 databricks configure
 ```
 
-Run notebooks or workflows inside Databricks.
+---
 
-------------------------------------------------------------------------
+## Execute Pipeline
 
-## 📊 Results
+```bash
+python src/bronze_layer.py
 
-  Metric                Value
-  ------------------- -------
-  Development Speed      +40%
-  Data Quality          99.8%
-  Pipeline Success      99.9%
+python src/silver_layer.py
 
-------------------------------------------------------------------------
-
-## 🔐 Security & Governance
-
--   Unity Catalog
--   Access Control
--   Data Lineage
--   Delta Lake ACID
--   Audit Logging
-
-------------------------------------------------------------------------
-
-## 📈 Future Enhancements
-
--   Delta Live Tables
--   MLflow
--   Vector Search
--   Lakeflow Pipelines
--   GenAI-powered assistant
+python src/gold_layer.py
+```
 
 ---
 
-## 🎓 Learning Outcomes
+# 📊 Results
 
-By completing this project, you'll understand:
-
-✅ **Medallion Architecture** - Enterprise data warehouse design  
-✅ **Delta Lake** - ACID-compliant data lakes  
-✅ **Unity Catalog** - Modern data governance  
-✅ **PySpark** - Distributed data processing  
-✅ **Claude Code** - AI-assisted development  
-✅ **Data Quality** - Validation frameworks  
-✅ **Orchestration** - Scheduling & automation  
+| Metric            |         Value |
+| ----------------- | ------------: |
+| Development Speed |          +40% |
+| Data Quality      |         99.8% |
+| Pipeline Success  |         99.9% |
+| Architecture      |     Medallion |
+| Governance        | Unity Catalog |
 
 ---
 
-## 🔗 Resources
+# 🔐 Security & Governance
 
-### Official Documentation
-- [Databricks Documentation](https://docs.databricks.com)
-- [Claude Code Guide](https://code.claude.com/docs)
-- [Delta Lake Documentation](https://delta.io)
-- [Apache Spark Documentation](https://spark.apache.org/docs)
-
-### Related Videos
-- Medallion Architecture Deep Dive - [Databricks](https://databricks.com)
-
-### Community
-- Databricks Community Forum
-- Stack Overflow: [databricks] [pyspark] [delta-lake]
-- LinkedIn: #DataEngineering #Databricks
+* Unity Catalog
+* Access Control
+* Data Lineage
+* Delta Lake ACID Transactions
+* Audit Logging
+* Metadata Management
 
 ---
 
-## 🤝 Contributing
+# 📚 Learning Outcomes
 
-Contributions are welcome! Please:
+* Medallion Architecture
+* Apache Spark
+* PySpark
+* Delta Lake
+* Unity Catalog
+* Databricks Workflows
+* AI-assisted Development
+* Enterprise Data Engineering
+
+---
+
+# 🚀 Future Enhancements
+
+* Delta Live Tables
+* Lakeflow Pipelines
+* MLflow Integration
+* Vector Search
+* AI Agents
+* CI/CD Automation
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
 5. Open a Pull Request
 
 ---
 
-## 📜 License
+# 📄 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
-
----
-
-## 📧 Contact
-
-**Author:** Subhrajit Behera  
-**Email:** subhrajitbehera6370@gmail.com  
-**LinkedIn:** [linkedin.com/in/subhrajit-behera](https://linkedin.com/in/subhrajit-behera)  
-**GitHub:** [github.com/subhrajit](https://github.com/SubhrjiT)  
+Licensed under the **MIT License**.
 
 ---
 
-## ⭐ Star & Follow
+# 👨‍💻 Author
 
-If this project helped you, please star it! ⭐
+**Subhrajit Behera**
+
+Azure Data Engineer | Databricks Engineer | Microsoft Fabric | PySpark | SQL | Python
+
+📧 Email: [subhrajitbehera6370@gmail.com](mailto:subhrajitbehera6370@gmail.com)
+
+🔗 LinkedIn: https://linkedin.com/in/subhrajit-behera
+
+💻 GitHub: https://github.com/SubhrjiT
 
 ---
-**Status:** ✅ Production-Ready  
 
-Made with ❤️ by Subhrajit Behera
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+**Built with ❤️ using Claude Code + Databricks**
+
+</div>
